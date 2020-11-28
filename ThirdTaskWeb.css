@@ -1,0 +1,47 @@
+body {
+    background-color: rgb(36, 34, 34);
+}
+
+div.first_triangle {
+  
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-bottom: 100px solid rgb(74, 132, 199);
+
+    left: calc(50% - 50px);
+    top: 5px;
+}
+
+div.second_triangle {
+
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-left: 45px solid transparent;
+    border-right: 45px solid transparent;
+    border-bottom: 95px solid  rgb(113, 172, 240);
+    z-index: 1;
+
+    left: calc(50% - 45px);
+    top: 15px;
+}
+
+div.main {
+    border: 5px solid rgb(74, 132, 199);
+    height: 200px;
+    background-color: rgb(113, 172, 240);
+    font-size: 30px;
+    color: white;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 95%;
+
+    margin-right: 2.5%;
+    margin-left: 2.5%;
+    margin-top: 100px;
+}
